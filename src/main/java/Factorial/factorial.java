@@ -22,7 +22,7 @@ public class factorial implements Runnable{
         for(int i=1;i<=entero;i++){
             fact=fact*i;
         }
-        System.out.println("Factorial de "+entero+" es: "+fact);
+        System.out.println(t.getName() + " - Factorial de "+entero+" es: "+fact);
     }
 
     public static void main(String[] args) {
